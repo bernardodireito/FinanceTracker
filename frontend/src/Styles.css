@@ -1,0 +1,194 @@
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    background-color: #f8f1e5;  /* a soft beige */
+    color: #4a3f35;           /* a deep brownish tone for contrast */
+    margin: 0;
+    padding-top: 95px;
+  }
+  
+  /* Headings */
+  h1, h2, h3, h4, h5, h6 {
+    color: #4a3f35;
+    margin-bottom: 1rem;
+  }
+  .home {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(180deg, #F2E8DC, #E0C9A6);
+    color: #3E2723;
+    padding: 20px;
+  }
+  
+  .home h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #5C4033;
+    font-family: 'SF Pro Display', sans-serif;
+  }
+  
+  .home p {
+    font-size: 1.5rem;
+    margin-top: 15px;
+    color: #4E342E;
+    max-width: 700px;
+    line-height: 1.6;
+  }
+  
+  .home button {
+    margin-top: 25px;
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    border: none;
+    background: #8B5A2B;
+    color: white;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .home button:hover {
+    background: #A67B5B;
+    transform: scale(1.05);
+  }
+  
+  
+
+  .navbar {
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 1100px;
+    background: linear-gradient(135deg, #5C4033, #8B5A2B, #A67B5B);
+    padding: 12px 25px;
+    border-radius: 40px; /* Soft rounded corners */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+  }
+  
+  .navbar a {
+    color: #F5E6DA;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px 15px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .navbar a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 10px 20px;
+  }
+  
+  .navbar-logo {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #F5E6DA;
+    font-family: 'SF Pro Display', 'Inter', sans-serif;
+  }
+  
+
+
+
+  /* Table Styles */
+  .table {
+    background-color: #fff8f0; /* light, creamy beige */
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .table th,
+  .table td {
+    padding: 12px 15px;
+    text-align: center;
+  }
+  
+  /* Card and Modal Styles */
+  .card, .modal-content {
+    background-color: #fff8f0;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .card, table {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Button Styles */
+  .btn-primary {
+    background-color: #d8bfa6; /* warm beige tone */
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #c0a38b;
+  }
+  
+  .btn-secondary {
+    background-color: #b8a995;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #a09585;
+  }
+  
+  .btn-warning {
+    background-color: #fdcb6e;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+  }
+  
+  .btn-danger {
+    background-color: #d63031;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+  }
+  
+  /* Form Controls */
+  .form-control {
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background-color: #fff8f0;
+    color: #4a3f35;
+  }
+  
+  .form-control:focus {
+    border-color: #d8bfa6;
+    box-shadow: 0 0 5px rgba(216, 191, 166, 0.5);
+  }
+  
+  /* Alert Styles */
+  .alert {
+    background-color: #d8bfa6;
+    border: none;
+    border-radius: 4px;
+    color: #4a3f35;
+  }
+  
+  
+  
